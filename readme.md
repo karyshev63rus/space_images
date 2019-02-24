@@ -9,3 +9,8 @@ freeze install -r requirements.txt
 ```
 ### How to install
 All scripts work autonomously and use the corresponding *APIs*. Instagram account data should be written to the *.env* file (by assigning the login and password values ​​of a specific user to the environment variables *your_login* and *your_password*) and place it in the same directory as the *upload_images.py* file.
+For start of running the script should to write in a terminal:
+```
+python <filename of the script>
+```
+First, either *fetch_spacex.py* file or *fetch_hubble.py* file should be launched. After this, folder "Images" will be created, the contents of which are loaded into Instgram when the file 3 is started.
