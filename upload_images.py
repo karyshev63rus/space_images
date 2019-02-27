@@ -11,9 +11,6 @@ def upload_images_to_instagram(your_login, your_password, images_dir_path):
     for image_item in image_list:
         bot.upload_photo(os.path.join(images_dir_path, image_item))
 
-# def main():
-#     return upload_images_to_instagram()
-
 if __name__ == '__main__':
     load_dotenv()
     images_dir_path = os.path.join(os.getcwd(), "images")
